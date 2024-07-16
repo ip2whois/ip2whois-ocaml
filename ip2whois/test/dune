@@ -1,0 +1,3 @@
+(test
+ (name ip2whoistest)
+ (libraries ip2whois yojson))

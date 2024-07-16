@@ -1,0 +1,4 @@
+(library
+ (public_name ip2whois)
+ (name ip2whois)
+ (libraries lwt lwt.unix cohttp cohttp-lwt cohttp-lwt-unix uri yojson))
