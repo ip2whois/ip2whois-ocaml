@@ -17,6 +17,7 @@ depends: [
   "lwt"
   "cohttp"
   "cohttp-lwt-unix"
+  "tls-lwt" {with-test}
   "uri"
   "yojson" {>= "2.2.2"}
   "odoc" {with-doc}
@@ -31,7 +32,6 @@ build: [
     "-j"
     jobs
     "@install"
-    "@runtest" {with-test}
     "@doc" {with-doc}
   ]
 ]
