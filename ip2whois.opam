@@ -15,7 +15,6 @@ depends: [
   "ocaml" {>= "4.14.1"}
   "dune" {>= "3.4"}
   "lwt"
-  "lwt" {= "unix"}
   "cohttp"
   "cohttp-lwt-unix"
   "uri"
